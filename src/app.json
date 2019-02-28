@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/draft/main",
+    "pages/published/main",
+    "pages/setting/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundTextColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#fffff",
+    "navigationBarTitleText": "小程序开发",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#686868",
+    "selectedColor": "#686868",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {"pagePath": "pages/index/main", "text": "首页", "iconPath": "static/images/dashboard.png", "selectedIconPath": "static/images/dashboard.png"},
+      {"pagePath": "pages/draft/main", "text": "草稿箱", "iconPath": "static/images/folder.png", "selectedIconPath": "static/images/folder.png"},
+      {"pagePath": "pages/published/main", "text": "已发布", "iconPath": "static/images/file.png", "selectedIconPath": "static/images/file.png"},
+      {"pagePath": "pages/setting/main", "text": "设置", "iconPath": "static/images/setting.png", "selectedIconPath": "static/images/setting.png"}
+    ],
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "uploadFile": 10000,
+    "connectSocket": 10000
+  }
+}
